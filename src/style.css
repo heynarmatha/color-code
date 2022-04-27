@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800&display=swap');
-* {
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800&display=swap'); */
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 body{
-  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
   padding: 20px;  
- font-family: 'Poppins', sans-serif;  
- transition: 1s ease-in; 
- transform: rotateX(350deg);  
+ /* font-family: 'Poppins', sans-serif;   */
+ /* transition: 1s ease-in; 
+ transform: rotateX(350deg);   */
 }
 .body-section{
   display: flex;
@@ -19,19 +19,19 @@ body{
   justify-content: center;
   min-height: 100vh;
 }
-@media only screen and (min-width: 768px){
+/* @media only screen and (min-width: 768px){
   /* .outer{
     width: 90%;
   } */
-  .text{
+  /* .text{
     font-size: 40px !important;
     margin-bottom: 30px;
     transition: 1s ease-in; 
   }
   .switch{
     margin-top: 70px !important;
-  }
-}
+  } */
+/* }  */
 .text{
   font-weight: 600;
   font-size: 2rem;
@@ -54,7 +54,7 @@ body{
 }
 .switch {
   background-color:black;
-  font-family: 'Poppins', sans-serif; 
+  /* font-family: 'Poppins', sans-serif;  */
   color: #fff;
   border: none;
   outline: none;
